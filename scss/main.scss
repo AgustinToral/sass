@@ -1,0 +1,72 @@
+.cabecera{
+    background-color: black;
+    &__titulo{
+        color:crimson;
+        background-color: black ; width: 165px;
+        font-style: italic;
+        font-weight:bolder;
+        }
+    &__pagina{
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        color:darkred;
+        list-style: none;
+        font-size: 30px;
+        &__logo{
+        width: 5vw;
+        }
+    }
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    grid-template-rows: 15vh repeat(2,20vw) 15vh;
+    grid-template-areas: 
+    "l1 c1 r1"
+    "l2 c2 r2"
+    "l3 c3 r3";
+
+    &__titulo{
+        grid-area: c1;
+    }
+    
+    &__personajes &__hyogavscamus{
+        grid-area: l2;
+        
+    }
+    
+    &__obra &__bronce{
+        grid-area: l3;
+    }
+    
+    &__dato &__dohko{
+        grid-area: r2;
+    }
+
+}
+
+.imagen{
+    &__hyogavscamus{
+        width: 300px;
+    }
+    &__dohko{
+        width: 300px;
+    }
+    &__bronce{
+        width: 300px;
+    }
+
+}
+
+.imagen__hvsa{
+    width: 200vh;
+}
+
+
+

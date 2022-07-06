@@ -1,0 +1,60 @@
+.cabecera {
+  background-color: black;
+}
+.cabecera__titulo {
+  color: crimson;
+  background-color: black;
+  width: 165px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.cabecera__pagina {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: darkred;
+  list-style: none;
+  font-size: 30px;
+}
+.cabecera__pagina__logo {
+  width: 5vw;
+}
+
+.section{
+  display: grid;
+  grid-template-columns: 20% 30% 50%;
+  grid-template-rows: 15vh repeat(2, 20vw) 15vh;
+  grid-template-areas: "l1 c1 r1" "l2 c2 r2" "l3 c3 r3";
+}
+.section__titulo {
+  grid-area: c1;
+}
+.section__personajes .section__hyogavscamus {
+  grid-area: l2;
+}
+.section__obra .section__bronce {
+  grid-area: l3;
+}
+.section__dato .section__dohko {
+  grid-area: r2;
+}
+
+.imagen__hyogavscamus {
+  width: 300px;
+}
+.imagen__dohko {
+  width: 300px;
+}
+.imagen__bronce {
+  width: 300px;
+}
+
+.imagen__hvsa {
+  width: 200vh;
+}
+
+/*# sourceMappingURL=style.css.map */
