@@ -24,7 +24,7 @@
   width: 5vw;
 }
 
-.section{
+.section {
   display: grid;
   grid-template-columns: 20% 30% 50%;
   grid-template-rows: 15vh repeat(2, 20vw) 15vh;
@@ -56,11 +56,5 @@
 .imagen__hvsa {
   width: 200vh;
 }
-
-.body {
-  color: burlywood;
-}
-
-
 
 /*# sourceMappingURL=style.css.map */
