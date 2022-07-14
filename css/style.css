@@ -61,3 +61,425 @@ body{
   background-color: bisque;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.titulo-dorado{
+  color: gold;
+}
+
+#dorados{
+  color: cornflowerblue;
+}
+
+#mu span{
+  color: violet;
+}
+
+#aldebaran span{
+  color: burlywood;
+}
+
+#saga span{
+  color: blueviolet;
+}
+
+.colornegro{
+  color: black;
+}
+
+p{
+  font-size: 1rem;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-align: justify;
+  background-color: bisque;
+
+}
+
+.aqua{
+  background-color: aquamarine;
+}
+
+
+ul{
+  list-style-type:circle
+}
+
+
+h1{
+  font-style: italic;
+  font-weight:bolder
+}
+
+.imagen-dorados{
+  width: 100%;
+}
+
+.imagen-mu{
+  width: 350px;
+}
+
+.imagen-aldebaran{
+  width: 350px;
+}
+
+.imagen-saga{
+  width: 350px
+}
+
+.imagen-evilsaga{
+  width: 376px;
+}
+
+
+.imagen-saintseiya{
+  width: 260px;
+}
+
+.manga-original{
+  width: 250px;
+}
+
+.manga-tlc{
+  width: 250px;
+}
+
+.manga-nd{
+  width: 250px;
+}
+
+.imagen-noticia-1{
+  width: 400px;
+}
+
+.imamgen-noticia-2{
+  width: 400px;
+}
+
+@media (min-width: 1024px){
+  .cabecera{
+    background: black;
+  }
+
+  .cabecera__pagina{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cabecera__pagina a{
+    text-decoration: none;
+    color:darkred
+}
+    
+.cabecera__lista__items{
+    list-style: none;
+    font-size: 30px;
+}
+
+.cabecera__logo{
+    width: 5vw;
+}
+
+.imagen-hvsa{
+    width: 200vh;
+}
+
+.imagen_hyogavscamus{
+    width: 300px;
+}
+
+.imagen__bronce{
+    width: 300px;
+}
+
+.imagen-dohkoLC{
+    width: 300px;
+}
+
+}
+
+
+.darkred{
+    background-color: darkred;
+}
+
+@media (min-width: 320px){
+    .cabecera{
+      background: black;
+    }
+  
+    .cabecera__pagina{
+      height: 10vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .cabecera__pagina a{
+      text-decoration: none;
+      color:darkred
+  }
+      
+  .cabecera__lista__items{
+      list-style: none;
+      font-size: 30px;
+  }
+  
+  .cabecera__logo{
+      width: 5vw;
+  }
+  
+  .imagen-hvsa{
+      width: 200vh;
+  }
+  
+  .imagen_hyogavscamus{
+      width: 300px;
+  }
+  
+  .imagen__bronce{
+      width: 300px;
+  }
+  
+  .imagen-dohkoLC{
+      width: 300px;
+  }
+  
+  }
+
+  @media (min-width: 480px){
+    .cabecera{
+      background: black;
+    }
+  
+    .cabecera__pagina{
+      height: 10vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .cabecera__pagina a{
+      text-decoration: none;
+      color:darkred
+  }
+      
+  .cabecera__lista__items{
+      list-style: none;
+      font-size: 30px;
+  }
+  
+  .cabecera__logo{
+      width: 5vw;
+  }
+  
+  .imagen-hvsa{
+      width: 200vh;
+  }
+  
+  .imagen_hyogavscamus{
+      width: 300px;
+  }
+  
+  .imagen__bronce{
+      width: 300px;
+  }
+  
+  .imagen-dohkoLC{
+      width: 300px;
+  }
+  
+  }
+
+  @media (min-width: 600px){
+    .cabecera{
+      background: black;
+    }
+  
+    .cabecera__pagina{
+      height: 10vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .cabecera__pagina a{
+      text-decoration: none;
+      color:darkred
+  }
+      
+  .cabecera__lista__items{
+      list-style: none;
+      font-size: 30px;
+  }
+  
+  .cabecera__logo{
+      width: 5vw;
+  }
+  
+  .imagen-hvsa{
+      width: 200vh;
+  }
+  
+  .imagen_hyogavscamus{
+      width: 300px;
+  }
+  
+  .imagen__bronce{
+      width: 300px;
+  }
+  
+  .imagen-dohkoLC{
+      width: 300px;
+  }
+  
+  }
+
+  @media (min-width: 1023px){
+    .cabecera{
+      background: black;
+    }
+  
+    .cabecera__pagina{
+      height: 10vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .cabecera__pagina a{
+      text-decoration: none;
+      color:darkred
+  }
+      
+  .cabecera__lista__items{
+      list-style: none;
+      font-size: 30px;
+  }
+  
+  .cabecera__logo{
+      width: 5vw;
+  }
+  
+  .imagen-hvsa{
+      width: 200vh;
+  }
+  
+  .imagen_hyogavscamus{
+      width: 300px;
+  }
+  
+  .imagen__bronce{
+      width: 300px;
+  }
+  
+  .imagen-dohkoLC{
+      width: 300px;
+  }
+  
+  }
+
+  @media (min-width: 768px){
+    .cabecera{
+      background: black;
+    }
+  
+    .cabecera__pagina{
+      height: 10vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .cabecera__pagina a{
+      text-decoration: none;
+      color:darkred
+  }
+      
+  .cabecera__lista__items{
+      list-style: none;
+      font-size: 30px;
+  }
+  
+  .cabecera__logo{
+      width: 5vw;
+  }
+  
+  .imagen-hvsa{
+      width: 200vh;
+  }
+  
+  .imagen_hyogavscamus{
+      width: 300px;
+  }
+  
+  .imagen__bronce{
+      width: 300px;
+  }
+  
+  .imagen-dohkoLC{
+      width: 300px;
+  }
+  
+  }
+
+  @media (min-width: 1200px){
+    .cabecera{
+      background: black;
+    }
+  
+    .cabecera__pagina{
+      height: 10vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .cabecera__pagina a{
+      text-decoration: none;
+      color:darkred
+  }
+      
+  .cabecera__lista__items{
+      list-style: none;
+      font-size: 30px;
+  }
+  
+  .cabecera__logo{
+      width: 5vw;
+  }
+  
+  .imagen-hvsa{
+      width: 200vh;
+  }
+  
+  .imagen_hyogavscamus{
+      width: 300px;
+  }
+  
+  .imagen__bronce{
+      width: 300px;
+  }
+  
+  .imagen-dohkoLC{
+      width: 300px;
+  }
+  
+  }
